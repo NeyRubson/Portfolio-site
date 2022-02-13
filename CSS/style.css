@@ -6,6 +6,19 @@ header {
     background: #2e2e2e;
     padding: 0 20px;
 }
-nav {
+.lista-navegacao li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+.lista-navegacao a {
     color: white;
+    text-decoration: none;
+}
+.logo-naruto {
+    border-radius: 50%;
+    width: 5%;
+    display: inline-block;
 }
