@@ -4,21 +4,31 @@ body {
 }
 header {
     background: #2e2e2e;
-    padding: 0 20px;
+    padding: 20px 0;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 .lista-navegacao li{
     display: inline-block;
     margin: 0 10px;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
-    
+    text-shadow: 5px 3px 1px black;
 }
 .lista-navegacao a {
     color: white;
     text-decoration: none;
+    
 }
-.logo-naruto {
+nav {
+position: absolute;
+	top: 70px;
+	right: 0;
+}
+header img{
     border-radius: 50%;
     width: 5%;
-    display: inline-block;
 }
